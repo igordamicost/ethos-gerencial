@@ -18,6 +18,7 @@ import { LoginComponent } from './login/login.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import {MatCardModule} from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LogoComponentComponent } from './shared/components/logo-component/logo-component.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NavBarComponent,
     HomeComponent,
     LoginComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    LogoComponentComponent
   ],
   imports: [
     BrowserModule,
